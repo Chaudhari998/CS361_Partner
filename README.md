@@ -9,7 +9,8 @@ This Python-based microservice application retrieves weather information based o
 - requests: A Python library for making HTTP requests.
 
 You can install these dependencies using pip:
-```pip install pyzmq requests
+```bash
+pip install pyzmq requests
 ```
 ## Components
 
