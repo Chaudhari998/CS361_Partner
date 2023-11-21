@@ -4,13 +4,13 @@ This Python-based microservice application retrieves weather information based o
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11
 - pyzmq: A Python wrapper for the ZeroMQ message library.
 - requests: A Python library for making HTTP requests.
 
 You can install these dependencies using pip:
-pip install pyzmq requests
-
+```pip install pyzmq requests
+```
 ## Components
 
 1. Sender (Client):
@@ -33,10 +33,4 @@ pip install pyzmq requests
    - Run the script: python sender.py
    - Input the coordinates when prompted.
 
-## API Key
-
-Replace api_key in the server script with your actual WeatherAPI.com API key.
-
-## Note
-
-Ensure that the server script is running before you start the client script. Adjust the IP address and port in both scripts if necessary.
+![UML Diagram](UMLdiagram.png)
